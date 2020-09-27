@@ -1,0 +1,24 @@
+<template>
+  <div class="w-100">
+    <Header />
+    <div>
+      <Nuxt />
+    </div>
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+export default {
+  components: {
+    Header,
+    Footer
+  }
+}
+</script>
+
+<style scoped>
+
+</style>

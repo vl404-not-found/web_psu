@@ -1,0 +1,17 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "static/font/muli.css";
+
+$custom-colors: ();
+
+$custom-breakpoints: ();
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$table-variants: map-merge($table-variants, $custom-colors);
+$grid-breakpoints: map_merge($custom-breakpoints, $grid-breakpoints);
+$container-max-widths: map_merge($custom-breakpoints, $container-max-widths);
+
+
+@import "node_modules/bootstrap/scss/bootstrap";

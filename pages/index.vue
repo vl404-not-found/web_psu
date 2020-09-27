@@ -1,13 +1,18 @@
 <template>
   <div>
-    init
+    fff
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'main'
+}
 </script>
 
 <style>
-
+*{
+  font-family: Muli,serif;
+  font-weight: normal;
+}
 </style>
