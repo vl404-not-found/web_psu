@@ -9,8 +9,9 @@
 </template>
 
 <script>
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import Header from '@/components/sceleton/Header'
+import Footer from '@/components/sceleton/Footer'
+
 export default {
   components: {
     Header,

@@ -1,18 +1,20 @@
 <template>
   <div>
-    fff
+    <MainCarousel />
   </div>
 </template>
 
 <script>
+import MainCarousel from '~/components/home/MainCarousel'
+
 export default {
+  components: { MainCarousel },
   layout: 'main'
 }
 </script>
 
 <style>
-*{
-  font-family: Muli,serif;
-  font-weight: normal;
+* {
+  font-family: 'CerebriSans', serif;
 }
 </style>

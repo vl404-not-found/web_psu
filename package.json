@@ -15,7 +15,6 @@
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.0.2",
     "bootstrap": "^5.0.0-alpha1",
-    "bootstrap-icons": "^1.0.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.5"
   },
