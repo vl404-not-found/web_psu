@@ -4,6 +4,10 @@
 
 @import "static/font/cerebrisans/font-cerebrisans.min.css";
 
+* {
+  font-family: 'CerebriSans', serif;
+}
+
 $custom-colors: (
   primary-lvl1: #3751EE,
 );

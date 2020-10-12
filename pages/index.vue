@@ -14,7 +14,5 @@ export default {
 </script>
 
 <style>
-* {
-  font-family: 'CerebriSans', serif;
-}
+
 </style>
