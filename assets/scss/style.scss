@@ -6,10 +6,12 @@
 
 * {
   font-family: 'CerebriSans', serif;
+  //text-decoration: none !important;
 }
 
 $custom-colors: (
   primary-lvl1: #3751EE,
+  danger-lvl-1: #E4573D
 );
 
 $custom-breakpoints: ();

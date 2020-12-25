@@ -1,7 +1,8 @@
 export default {
+  ssr: true,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'PHARMEDICA',
+    title: 'MEDIZIN',
     script: [
       { src: 'https://kit.fontawesome.com/cbf0515d21.js' }
     ],

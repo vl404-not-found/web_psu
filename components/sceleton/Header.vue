@@ -38,10 +38,10 @@
         <div class="ml-auto mr-5 flex-grow-1">
           <form
             onsubmit="search"
-            class="search-form rounded-pill d-flex justify-content-between form-control ml-auto w-50 pt-2 pb-2"
+            class="search-form border-none bg-light rounded-pill d-flex justify-content-between form-control ml-auto w-50 pt-2 pb-2"
           >
             <label class="d-none" for="search-menu" />
-            <input id="search-menu" type="text" placeholder="Search for items...">
+            <input id="search-menu" type="text" class="bg-light" placeholder="Search for items...">
             <button type="submit" class="text-black-50 btn p-0 m-0 align-self-end">
               <i class="fas fa-search" />
             </button>
@@ -58,8 +58,7 @@
 </template>
 
 <script>
-
-import TopHeader from '@/components/sceleton/TopHeader'
+import TopHeader from '~/components/sceleton/TopHeader'
 
 export default {
   components: { TopHeader },
@@ -88,6 +87,13 @@ export default {
 
 <style scoped lang="scss">
 .menu-icons{
+  :hover{
+    color: #4e97fd;
+    transition: all 0.2s linear;
+  }
+  transition: all 0.2s linear;
+  color: #333;
+  font-weight: 400;
   font-size: 20px;
 }
 .search-form:hover {

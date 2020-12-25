@@ -16,7 +16,8 @@
     "@nuxtjs/pwa": "^3.0.2",
     "bootstrap": "^5.0.0-alpha1",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.5"
+    "nuxt": "^2.14.5",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
@@ -25,6 +26,7 @@
     "eslint": "^7.8.1",
     "eslint-plugin-nuxt": "^1.0.0",
     "node-sass": "^4.14.1",
-    "sass-loader": "^10.0.2"
+    "sass-loader": "^10.0.2",
+    "vue": "^2.6.12"
   }
 }
